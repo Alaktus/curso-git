@@ -2,8 +2,15 @@ using System;
 
 class Pessoa
 {
-	public static void Main()
+	private string nome;
+	
+	public Pessoa(String nome)
 	{
-		Console.WriteLine("Hello World!");
+		this.nome = nome;
+	}
+	
+	public void DigaOla()
+	{
+		Console.WriteLine("Olá {0}", this.nome);
 	}
 }
