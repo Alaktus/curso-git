@@ -23,7 +23,12 @@ class Pessoa
 		}
 		else
 		{
-			Console.WriteLine("Olá {0} {1}", this.nome, this.sobrenome);
+			Console.WriteLine("Olá {0}", NomeCompleto());
 		}
+	}
+	
+	public string NomeCompleto()
+	{
+		return this.nome + " " + this.sobrenome;
 	}
 }
