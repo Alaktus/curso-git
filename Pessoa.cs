@@ -23,7 +23,7 @@ class Pessoa
 		}
 		else
 		{
-			Console.WriteLine("Olá {0}", NomeCompleto());
+			Console.WriteLine("Olá {0} você é {1}", NomeCompleto(), sexo);
 		}
 	}
 	
