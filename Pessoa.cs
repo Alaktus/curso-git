@@ -4,12 +4,14 @@ class Pessoa
 {
 	private string nome;
 	private string sobrenome;
+	private string sexo;
 	private int idade;
 	
-	public Pessoa(string nome, string sobrenome, int idade)
+	public Pessoa(string nome, string sobrenome, string sexo, int idade)
 	{
 		this.nome = nome;
 		this.sobrenome = sobrenome;
+		this.sexo = sexo;
 		this.idade = idade;
 	}
 	
