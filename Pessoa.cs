@@ -15,6 +15,13 @@ class Pessoa
 	
 	public void DigaOla()
 	{
-		Console.WriteLine("Olá {0} {1}", this.nome, this.sobrenome);
+		if(idade < 2)
+		{
+			Console.WriteLine("Bebê");
+		}
+		else
+		{
+			Console.WriteLine("Olá {0} {1}", this.nome, this.sobrenome);
+		}
 	}
 }
